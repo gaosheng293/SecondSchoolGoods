@@ -1,0 +1,62 @@
+
+.page { display: flex; flex-direction: column; min-height: 100vh; background-color: #f7f8fa
+}
+.hero { height: 200px; background: linear-gradient(135deg, #83a4d4, #b6fbff); border-bottom-left-radius: 24px; border-bottom-right-radius: 24px
+}
+.hero-inner { height: 100%; align-items: center; justify-content: center; display: flex; flex-direction: column
+}
+.logo { width: 64px; height: 64px; border-radius: 32px; background: #fff; opacity: 0.9; margin-bottom: 12px
+}
+.hero-title { color: #fff; font-size: 22px; font-weight: 600
+}
+.hero-sub { color: #eef; font-size: 14px; margin-top: 4px
+}
+.content { padding: 16px; margin-top: -40px
+}
+.card { background: #fff; border-radius: 16px; box-shadow: 0 6px 16px rgba(0,0,0,0.06); padding: 16px
+}
+.card + .card { margin-top: 16px
+}
+.card-title { font-size: 18px; font-weight: 600 ;justify-content: center;}
+.card-sub { font-size: 13px; color: #888; margin-top: 6px
+}
+.btn-primary { margin-top: 16px; background-color: #007AFF; color: #fff; border-radius: 8px; padding: 12px; font-size: 16px
+}
+.btn-primary[disabled] { opacity: 0.5
+}
+.search { margin-top: 12px; display: flex; align-items: center; background: #f5f6f7; border-radius: 8px; padding: 8px
+}
+.search-input { flex: 1; padding: 6px 8px; font-size: 14px
+}
+.list { max-height: 320px; margin-top: 8px
+}
+.item { display: flex; align-items: center; justify-content: space-between; padding: 12px; border-bottom: 1px solid #f0f0f0
+}
+.item.selected { background: #f0f7ff
+}
+.item-name { font-size: 16px
+}
+.item-en { font-size: 12px; color: #888; margin-top: 4px
+}
+.empty { text-align: center; color: #999; padding: 16px
+}
+.province-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 12px;
+  background: #f8f9fb;
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+.sub-item {
+  padding-left: 32px;
+  background: #fff !important;
+}
+.item-province {
+  font-size: 12px;
+  color: #888;
+  margin-top: 4px;
+}

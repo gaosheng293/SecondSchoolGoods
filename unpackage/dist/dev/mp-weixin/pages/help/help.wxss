@@ -1,0 +1,85 @@
+
+.help-page.data-v-5194e907 { background: #f8f8f8; min-height: 100vh; padding-bottom: 40rpx;
+}
+.header.data-v-5194e907 {
+  padding: 100rpx 60rpx 80rpx;
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+}
+.title.data-v-5194e907 { font-size: 56rpx; font-weight: bold;
+}
+.subtitle.data-v-5194e907 { font-size: 30rpx; opacity: 0.9; margin-top: 20rpx; display: block;
+}
+.section.data-v-5194e907 { margin: 40rpx 32rpx; background: #fff; border-radius: 24rpx; overflow: hidden; box-shadow: 0 8rpx 30rpx rgba(0,0,0,0.06);
+}
+.section-title.data-v-5194e907 {
+  padding: 40rpx 32rpx 20rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+}
+.faq-list.data-v-5194e907 { padding: 0 32rpx 32rpx;
+}
+.faq-item.data-v-5194e907 { border-bottom: 1rpx solid #f0f0f0; padding: 32rpx 0;
+}
+.faq-item.data-v-5194e907:last-child { border-bottom: none;
+}
+.question.data-v-5194e907 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32rpx;
+  color: #333;
+}
+.answer.data-v-5194e907 {
+  margin-top: 24rpx;
+  padding: 24rpx;
+  background: #f8f9fb;
+  border-radius: 16rpx;
+  font-size: 28rpx;
+  color: #666;
+  line-height: 1.6;
+}
+.contact-section.data-v-5194e907 { background: linear-gradient(135deg, #667eea, #764ba2); color: #fff;
+}
+.contact-card.data-v-5194e907 { padding: 0 32rpx 40rpx;
+}
+.contact-item.data-v-5194e907 {
+  display: flex;
+  align-items: center;
+  padding: 32rpx 0;
+  border-bottom: 1rpx solid rgba(255,255,255,0.2);
+}
+.contact-item.data-v-5194e907:last-child { border-bottom: none;
+}
+.contact-item .label.data-v-5194e907 { width: 160rpx; font-size: 30rpx; opacity: 0.9;
+}
+.contact-item .value.data-v-5194e907 { flex: 1; font-size: 32rpx; font-weight: bold;
+}
+.feedback-btn.data-v-5194e907 {
+  margin: 40rpx 32rpx 20rpx;
+  background: linear-gradient(135deg, #ff4757, #ff6b6b);
+  color: #fff;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-radius: 50rpx;
+  font-size: 34rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20rpx;
+}
+.feedback-btn.alt.data-v-5194e907 {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+.footer.data-v-5194e907 {
+  text-align: center;
+  padding: 60rpx 32rpx;
+  color: #999;
+  font-size: 28rpx;
+  line-height: 2;
+}

@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/chat-list/chat-list",
+    "pages/cart/cart",
+    "pages/publish/publish",
+    "pages/detail/detail",
+    "pages/category/category",
+    "pages/chat/chat",
+    "pages/profile/edit",
+    "pages/mine/my-goods",
+    "pages/mine/my-orders",
+    "pages/order/detail",
+    "pages/mine/my-likes",
+    "pages/publish/history",
+    "pages/publish/edit",
+    "pages/address/list",
+    "pages/address/edit",
+    "pages/help/help",
+    "pages/about/about",
+    "pages/user/home",
+    "pages/search/search"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校园二手",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/c1.png",
+        "selectedIconPath": "/static/c1.png"
+      },
+      {
+        "pagePath": "pages/chat-list/chat-list",
+        "text": "消息",
+        "iconPath": "/static/c2.png",
+        "selectedIconPath": "/static/c2.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "/static/c3.png",
+        "selectedIconPath": "/static/c3.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/static/c4.png",
+        "selectedIconPath": "/static/c4.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/static/c5.png",
+        "selectedIconPath": "/static/c5.png"
+      }
+    ]
+  },
+  "devServer": {
+    "host": "192.168.1.105",
+    "port": 8080
+  },
+  "usingComponents": {}
+}

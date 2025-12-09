@@ -1,0 +1,105 @@
+
+.chat-page.data-v-0a633310 { height: 100vh; display: flex; flex-direction: column; background: #f5f5f5;
+}
+.navbar.data-v-0a633310 {
+  height: 90rpx;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding-top: var(--status-bar-height);
+}
+.title.data-v-0a633310 { font-size: 36rpx; font-weight: bold;
+}
+.msg-list.data-v-0a633310 {
+  flex: 1;
+  padding: 20rpx 30rpx 140rpx;
+  padding-top: 110rpx;
+  box-sizing: border-box;
+}
+.msg-item.data-v-0a633310 {
+  display: flex;
+  margin-bottom: 40rpx;
+  align-items: flex-end;
+}
+.msg-item.mine.data-v-0a633310 { flex-direction: row-reverse;
+}
+.avatar.data-v-0a633310 {
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50%;
+  background: #fff;
+  flex-shrink: 0;
+}
+.bubble.data-v-0a633310 {
+  max-width: 540rpx;
+  margin: 0 20rpx;
+  padding: 20rpx 28rpx;
+  border-radius: 30rpx;
+  position: relative;
+  word-break: break-all;
+  line-height: 1.5;
+}
+.other-bubble.data-v-0a633310 {
+  background: #fff;
+  border-bottom-left-radius: 6rpx;
+}
+.my-bubble.data-v-0a633310 {
+  background: #95ec69;
+  border-bottom-right-radius: 6rpx;
+}
+.msg-text.data-v-0a633310 { font-size: 32rpx;
+}
+.msg-image.data-v-0a633310 { max-width: 400rpx; border-radius: 20rpx;
+}
+.input-bar.data-v-0a633310 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+  border-top: 1px solid #eee;
+  box-sizing: border-box;
+}
+.input.data-v-0a633310 {
+  flex: 1;
+  height: 70rpx;
+  background: #f5f5f5;
+  border-radius: 35rpx;
+  padding: 0 30rpx;
+  font-size: 32rpx;
+}
+.icon-btn.data-v-0a633310 { padding: 0 20rpx;
+}
+.send-btn.data-v-0a633310 {
+  width: 120rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  padding: 0;
+  font-size: 32rpx;
+  background: #ddd;
+  color: #999;
+  border-radius: 35rpx;
+  margin-left: 20rpx;
+}
+.send-btn.active.data-v-0a633310 {
+  background: #007AFF;
+  color: #fff;
+}
+.loading-tip.data-v-0a633310 {
+  text-align: center;
+  padding: 20rpx;
+  color: #999;
+  font-size: 28rpx;
+}

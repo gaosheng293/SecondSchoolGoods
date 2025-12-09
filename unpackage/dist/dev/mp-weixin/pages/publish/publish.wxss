@@ -1,0 +1,45 @@
+
+.publish-page.data-v-bfce3555 { background: #f8f8f8; min-height: 100vh; padding-bottom: 100rpx;
+}
+.form.data-v-bfce3555 { padding: 32rpx;
+}
+.input-item.data-v-bfce3555 { background: #fff; padding: 32rpx; margin-bottom: 20rpx; border-radius: 20rpx; display: flex; align-items: center; justify-content: space-between;
+}
+.label.data-v-bfce3555 { font-size: 32rpx;
+}
+.req.data-v-bfce3555 { color: #ff4757;
+}
+input.data-v-bfce3555 { flex: 1; text-align: right; font-size: 32rpx;
+}
+.value.data-v-bfce3555 { flex: 1; text-align: right; color: #333;
+}
+.upload-grid.data-v-bfce3555 { display: flex; flex-wrap: wrap; margin-top: 20rpx;
+}
+.img-item.data-v-bfce3555, .upload-btn.data-v-bfce3555 { width: 200rpx; height: 200rpx; margin-right: 20rpx; margin-bottom: 20rpx; border-radius: 20rpx; overflow: hidden; position: relative; background: #f9f9f9; border: 2rpx dashed #ddd;
+}
+.img-item image.data-v-bfce3555 { width: 100%; height: 100%;
+}
+.delete.data-v-bfce3555 { position: absolute; top: 0; right: 0; background: rgba(0,0,0,0.6); color: #fff; width: 40rpx; height: 40rpx; text-align: center; line-height: 40rpx; border-radius: 0 0 0 20rpx;
+}
+.upload-btn.data-v-bfce3555 { display: flex; align-items: center; justify-content: center;
+}
+.desc-input.data-v-bfce3555 { width: 100%; height: 300rpx; padding: 20rpx; border: 1px solid #eee; border-radius: 16rpx; margin-top: 16rpx; background: #fff;
+}
+.options.data-v-bfce3555 { display: flex; justify-content: space-around; padding: 40rpx 0;
+}
+.option-item.data-v-bfce3555 { display: flex; align-items: center; font-size: 32rpx;
+}
+.option-item text.data-v-bfce3555 { margin-left: 16rpx;
+}
+.option-item .active.data-v-bfce3555 { color: #ff4757;
+}
+.publish-btn.data-v-bfce3555 { margin: 60rpx 32rpx; background: linear-gradient(135deg, #ff6b6b, #ee5a52); color: #fff; height: 88rpx; line-height: 88rpx; border-radius: 88rpx; font-size: 36rpx; font-weight: bold;
+}
+.popup-content.data-v-bfce3555 { background: #fff; border-radius: 24rpx 24rpx 0 0;
+}
+.popup-header.data-v-bfce3555 { padding: 32rpx; display: flex; justify-content: space-between; font-size: 32rpx; border-bottom: 1rpx solid #eee;
+}
+.category-grid.data-v-bfce3555 { display: flex; flex-wrap: wrap; padding: 32rpx;
+}
+.cat-item.data-v-bfce3555 { width: 33.33%; text-align: center; padding: 32rpx 0; font-size: 30rpx;
+}

@@ -1,0 +1,19 @@
+
+.edit-page.data-v-dcb1f0d8 { background: #f8f8f8; min-height: 100vh; padding: 40rpx;
+}
+.form.data-v-dcb1f0d8 { background: #fff; border-radius: 24rpx; padding: 40rpx;
+}
+.form-item.data-v-dcb1f0d8 { display: flex; align-items: center; border-bottom: 1rpx solid #eee; padding: 32rpx 0;
+}
+.form-item.data-v-dcb1f0d8:last-child { border-bottom: none;
+}
+.label.data-v-dcb1f0d8 { width: 180rpx; font-size: 32rpx; color: #333;
+}
+input.data-v-dcb1f0d8, textarea.data-v-dcb1f0d8 { flex: 1; font-size: 32rpx; color: #666;
+}
+textarea.data-v-dcb1f0d8 { height: 200rpx;
+}
+.switch-item.data-v-dcb1f0d8 { justify-content: space-between;
+}
+.save-btn.data-v-dcb1f0d8 { margin-top: 60rpx; background: #ff4757; color: #fff; height: 88rpx; line-height: 88rpx; border-radius: 88rpx; font-size: 32rpx;
+}

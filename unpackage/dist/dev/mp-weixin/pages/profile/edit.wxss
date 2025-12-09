@@ -1,0 +1,60 @@
+
+/* 完全复用 publish.vue 的视觉风格 */
+.page.data-v-ead3e541 { background: #f8f8f8; min-height: 100vh; padding-bottom: 100rpx;
+}
+.hero.data-v-ead3e541 { height: 200px; background: linear-gradient(135deg, #667eea, #764ba2); border-bottom-left-radius: 24px; border-bottom-right-radius: 24px;
+}
+.hero-inner.data-v-ead3e541 { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+.logo.data-v-ead3e541 { width: 64px; height: 64px; border-radius: 32px; background: #fff; opacity: 0.9; margin-bottom: 12px;
+}
+.hero-title.data-v-ead3e541 { color: #fff; font-size: 22px; font-weight: 600;
+}
+.hero-sub.data-v-ead3e541 { color: #eef; font-size: 14px; margin-top: 4px;
+}
+.content.data-v-ead3e541 { padding: 32rpx; margin-top: -40px;
+}
+.card.data-v-ead3e541 { background: #fff; border-radius: 20rpx; overflow: hidden; box-shadow: 0 6rpx 16rpx rgba(0,0,0,0.06);
+}
+.input-item.data-v-ead3e541 { padding: 32rpx; display: flex; align-items: center; justify-content: space-between; border-bottom: 1rpx solid #f0f0f0;
+}
+.input-item.data-v-ead3e541:last-child { border-bottom: none;
+}
+.label.data-v-ead3e541 { font-size: 32rpx;
+}
+.req.data-v-ead3e541 { color: #ff4757;
+}
+.value.data-v-ead3e541 { flex: 1; text-align: right; color: #333; font-size: 32rpx; margin-right: 20rpx;
+}
+
+/* 头像上传区域（与 publish.vue 完全一致） */
+.avatar-upload.data-v-ead3e541 { width: 140rpx; height: 140rpx;
+}
+.upload-grid.data-v-ead3e541 { display: flex;
+}
+.img-item.data-v-ead3e541, .upload-btn.data-v-ead3e541 { width: 140rpx; height: 140rpx; border-radius: 20rpx; overflow: hidden; position: relative; background: #f9f9f9; border: 2rpx dashed #ddd;
+}
+.img-item image.data-v-ead3e541 { width: 100%; height: 100%;
+}
+.delete.data-v-ead3e541 { position: absolute; top: 0; right: 0; background: rgba(0,0,0,0.6); color: #fff; width: 40rpx; height: 40rpx; text-align: center; line-height: 40rpx; border-radius: 0 0 0 20rpx; font-size: 40rpx;
+}
+.upload-btn.data-v-ead3e541 { display: flex; align-items: center; justify-content: center;
+}
+
+/* 保存按钮（与发布按钮同款） */
+.publish-btn.data-v-ead3e541 { margin: 60rpx 32rpx; background: linear-gradient(135deg, #ff6b6b, #ee5a52); color: #fff; height: 88rpx; line-height: 88rpx; border-radius: 88rpx; font-size: 36rpx; font-weight: bold;
+}
+
+/* 昵称弹窗（完全复用 publish.vue 的分类弹窗风格） */
+.popup-content.data-v-ead3e541 { background: #fff; border-radius: 24rpx 24rpx 0 0;
+}
+.popup-header.data-v-ead3e541 { padding: 32rpx; display: flex; justify-content: space-between; align-items: center; font-size: 32rpx; border-bottom: 1rpx solid #eee;
+}
+.popup-header .title.data-v-ead3e541 { font-weight: bold;
+}
+.popup-header .confirm.data-v-ead3e541 { color: #007AFF;
+}
+.nickname-section.data-v-ead3e541 { padding: 40rpx 32rpx;
+}
+.nickname-input.data-v-ead3e541 { width: 100%; height: 100rpx; border: 2rpx solid #eee; border-radius: 20rpx; padding: 0 32rpx; font-size: 32rpx; text-align: center;
+}
